@@ -1,10 +1,31 @@
+/* bootstrap property   overridden when max wid 768  */
+/* here  aligining the text center  */
 @media only screen and (max-width: 768px) {
   .card-media-text > h5,
   p {
     text-align: center;
   }
 }
-.background-color>img{
-    border-radius: 10px;
+/* product card brackground color set  */
+.background-color > img {
+  border-radius: 10px;
   background-color: rgba(219, 213, 213, 0.329);
+}
+/* }social icon resizing */
+.social-sizing {
+  font-size: 50px;
+}
+/* orderindg row */
+@media only screen and (max-width: 768px) {
+  .wrapper {
+    width: 100%;
+    display: table;
+  }
+  .first-row {
+    display: table-row-group;
+  }
+
+  .second-row {
+    display: table-header-group;
+  }
 }
