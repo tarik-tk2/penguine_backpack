@@ -1,0 +1,6 @@
+@media only screen and (max-width: 768px) {
+  .card-media-text > h5,
+  p {
+    text-align: center;
+  }
+}
