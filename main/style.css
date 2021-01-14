@@ -4,3 +4,7 @@
     text-align: center;
   }
 }
+.background-color>img{
+    border-radius: 10px;
+  background-color: rgba(219, 213, 213, 0.329);
+}
