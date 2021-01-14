@@ -1,7 +1,5 @@
-
-
 /* header section color */
-.header{
+.header {
   background-color: rgba(245, 222, 179, 0.137);
 }
 /* common  collor  */
@@ -24,6 +22,17 @@
     text-align: center;
   }
 }
+@media only screen and (max-width: 768px) {
+  
+  .text-center-after > ul {
+    list-style-type: none;
+  }
+  .text-center-after > ul > li > a > p {
+    text-decoration: none;
+    text-align: center;
+  }
+}
+
 /* product card brackground color set  */
 .background-color > img {
   border-radius: 10px;
