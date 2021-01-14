@@ -1,3 +1,21 @@
+
+
+/* header section color */
+.header{
+  background-color: rgba(245, 222, 179, 0.137);
+}
+/* common  collor  */
+.common-color {
+  color: rgb(14, 14, 58);
+}
+.btn-dark.custom-color {
+  background-color: rgb(14, 14, 58);
+}
+
+.heading-common-color {
+  color: rgba(85, 155, 85, 0.877);
+}
+
 /* bootstrap property   overridden when max wid 768  */
 /* here  aligining the text center  */
 @media only screen and (max-width: 768px) {

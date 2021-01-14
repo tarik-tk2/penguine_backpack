@@ -19,9 +19,9 @@
     <title>PenguineBackPack</title>
   </head>
   <body>
-    <header>
+    <header class="header">
       <!-- nav var section start  -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light  sticky-top header">
         <div class="container-fluid container">
           <a class="navbar-brand w-0" href="#"
             ><img src="images/icon/Logo.png" alt=""
@@ -43,9 +43,9 @@
           >
             <div class="navbar-nav">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">Products</a>
-              <a class="nav-link" href="#">About us</a>
-              <a class="nav-link" href="#">Contact us</a>
+              <a class="nav-link" href="#products">Products</a>
+              <a class="nav-link" href="#about">About us</a>
+              <a class="nav-link" href="#contact">Contact us</a>
             </div>
           </div>
         </div>
@@ -55,14 +55,14 @@
         <div class="container mt-5">
           <div class="row d-flexjustify-content-start">
             <div class="col-md-6 col-sm-12">
-              <h1 clas>BACKPACK</h1>
-              <h1>MOON</h1>
+              <h1 class="fw-bolder common-color">BACKPACK</h1>
+              <h1 class="heading-common-color fw-bolder">MOON</h1>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
                 corrupti repellat sapiente rerum beatae delectus nihil nisi
                 impedit sit tempore?
               </p>
-              <button class="btn btn-dark btn-lg">
+              <button class="btn  btn-dark custom-color btn-lg">
                 <i class="fas fa-shopping-cart pe-3"></i>Buy Now
               </button>
             </div>
@@ -83,7 +83,7 @@
 
     <main class="wrapper">
       <!-- top section start -->
-      <section class="first-row">
+      <section class="first-row" id="about">
         <div class="mt-5">
           <div class="container">
             <div class="row">
@@ -115,10 +115,11 @@
                     />
                   </div>
                   <div class="col-md-9 card-media-text">
-                    <h5>Find the Perfect Fit</h5>
+                    <h5>Free Exchanges</h5>
                     <p>
-                      Everybody is different, which is why we offer styles for
-                      every body
+                      One of the many reasons you can shop
+
+with peace of mind.
                     </p>
                   </div>
                 </div>
@@ -132,10 +133,11 @@
                     />
                   </div>
                   <div class="col-md-9 card-media-text">
-                    <h5>Find the Perfect Fit</h5>
+                    <h5>Contact Our Seller</h5>
                     <p>
-                      Everybody is different, which is why we offer styles for
-                      every body
+                     They are here to help you. That's quite 
+
+literally what we pay them for.
                     </p>
                   </div>
                 </div>
@@ -156,10 +158,10 @@
 <!-- products section start -->
       <!-- casul back pack start -->
 
-     <section class="second-row">
+     <section class="second-row" id="products">
         <section>
         <div class="container mt-5 mb-5">
-          <h1>Casual backpack</h1>
+          <h2 class="common-color fw-bold">Casual backpack</h2>
           <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
             <div class="col">
               <div
@@ -171,14 +173,14 @@
                   alt="backpak"
                 />
                 <div class="card-body">
-                  <h5 class="card-title">Nike Sportswear Hayward</h5>
+                  <h5 class="card-title common-color fw-bold">Nike Sportswear Hayward</h5>
                   <p class="card-text">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry.
                   </p>
                   <div class="d-flex justify-content-between">
-                    <h1 class="fw-bold">$234</h1>
-                    <button class="btn btn-dark h75">
+                    <h1 class="heading-common-color fw-bolder">$234</h1>
+                    <button class="btn btn-dark custom-color">
                       <i class="fas fa-shopping-cart pe-2"></i>BUY NOW
                     </button>
                   </div>
@@ -195,14 +197,14 @@
                   alt="backpak"
                 />
                 <div class="card-body">
-                  <h5 class="card-title">Nike Sportswear Hayward</h5>
+                  <h5 class="card-title common-color fw-bold">Nike Sportswear Hayward</h5>
                   <p class="card-text">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry.
                   </p>
                   <div class="d-flex justify-content-between">
-                    <h1 class="fw-bold">$234</h1>
-                    <button class="btn btn-dark">
+                    <h1 class="heading-common-color fw-bolder">$234</h1>
+                    <button class="btn btn-dark custom-color">
                       <i class="fas fa-shopping-cart pe-2"></i>BUY NOW
                     </button>
                   </div>
@@ -219,14 +221,14 @@
                   alt="backpak"
                 />
                 <div class="card-body">
-                  <h5 class="card-title">Nike Sportswear Hayward</h5>
+                  <h5 class="card-title common-color fw-bold">Nike Sportswear Hayward</h5>
                   <p class="card-text">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry.
                   </p>
                   <div class="d-flex justify-content-between">
-                    <h1 class="fw-bold">$234</h1>
-                    <button class="btn btn-dark">
+                    <h1 class="heading-common-color fw-bolder">$234</h1>
+                    <button class="btn btn-dark custom-color">
                       <i class="fas fa-shopping-cart pe-2"></i>BUY NOW
                     </button>
                   </div>
@@ -240,7 +242,7 @@
       <!-- Travel backpack stsrt -->
       <section>
         <div class="container mt-5 mb-5">
-          <h1>Travel backpack</h1>
+          <h2 class="common-color fw-bold">Travel backpack</h2>
           <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
             <div class="col">
               <div
@@ -252,14 +254,14 @@
                   alt="backpak"
                 />
                 <div class="card-body">
-                  <h5 class="card-title">Nike Sportswear Hayward</h5>
+                  <h5 class="card-title common-color fw-bold">Nike Sportswear Hayward</h5>
                   <p class="card-text">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry.
                   </p>
                   <div class="d-flex justify-content-between">
-                    <h1 class="fw-bold">$234</h1>
-                    <button class="btn btn-dark">
+                    <h1 class="heading-common-color fw-bolder">$234</h1>
+                    <button class="btn btn-dark custom-color">
                       <i class="fas fa-shopping-cart pe-2"></i>BUY NOW
                     </button>
                   </div>
@@ -276,14 +278,14 @@
                   alt="backpak"
                 />
                 <div class="card-body">
-                  <h5 class="card-title">Nike Sportswear Hayward</h5>
+                  <h5 class="card-title common-color fw-bold">Nike Sportswear Hayward</h5>
                   <p class="card-text">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry.
                   </p>
                   <div class="d-flex justify-content-between">
-                    <h1 class="fw-bold">$234</h1>
-                    <button class="btn btn-dark">
+                    <h1 class="heading-common-color fw-bolder">$234</h1>
+                    <button class="btn btn-dark custom-color">
                       <i class="fas fa-shopping-cart pe-2"></i>BUY NOW
                     </button>
                   </div>
@@ -300,14 +302,14 @@
                   alt="backpak"
                 />
                 <div class="card-body">
-                  <h5 class="card-title">Nike Sportswear Hayward</h5>
+                  <h5 class="card-title common-color fw-bold">Nike Sportswear Hayward</h5>
                   <p class="card-text">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry.
                   </p>
                   <div class="d-flex justify-content-between">
-                    <h1 class="fw-bold">$234</h1>
-                    <button class="btn btn-dark">
+                    <h1 class="heading-common-color fw-bolder">$234</h1>
+                    <button class="btn btn-dark custom-color">
                       <i class="fas fa-shopping-cart pe-2"></i>BUY NOW
                     </button>
                   </div>
@@ -320,7 +322,7 @@
      </section>
       <!-- travel backpack end -->
     </main>
-    <footer >
+    <footer id="contact" >
       <section class="mt-5 p-4 bg-danger  ">
         <div class=" container">    
       <div class="row  ">
